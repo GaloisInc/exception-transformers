@@ -25,9 +25,9 @@ library
     Control.Monad.Exception
 
   build-depends:
-    base         >=4   && <5,
-    stm          >=2.1 && <2.5,
-    transformers >=0.2 && <0.4
+    base         >=4,
+    stm          >=2.1,
+    transformers >=0.2
 
   ghc-options:
     -Wall
